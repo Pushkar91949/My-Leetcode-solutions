@@ -1,4 +1,4 @@
-def isPalindrome(self, x):
+def isPalindrome(x):
     y=x
     r=0
     while(x>0):
