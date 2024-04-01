@@ -1,10 +1,6 @@
-class Solution(object):
-    def lengthOfLastWord(self, s):
-        val=0
-        x=s.strip()
-        for i in range(len(x)):
-            if(x[i]==" "):
-                val=0
-            else:
-                val+=1
-        return val
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
+        words = s.strip().split()
+        if not words:
+            return 0
+        return len(words[-1]) # Question link: https://leetcode.com/problems/length-of-last-word/
