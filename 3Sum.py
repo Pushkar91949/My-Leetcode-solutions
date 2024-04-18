@@ -18,7 +18,7 @@ class Solution:
                     left += 1
                     while nums[left] == nums[left - 1] and left < right:
                         left += 1
-        return res 
+        return res # Question link: https://leetcode.com/problems/3sum/description/
 
 # Time complexity = O(n^2)
 # O(nlogn) for sorting and O(n^2) when we run two loops, one inside another.) --> O(nlogn) + O(n^2) = O(n^2).
