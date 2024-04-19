@@ -20,4 +20,4 @@ class Solution:
         result = [next_greater_map[num] for num in nums1]
         
         return result
- 
+ # Question link: https://leetcode.com/problems/next-greater-element-i/
