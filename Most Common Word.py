@@ -16,3 +16,4 @@ class Solution:
                 most_common_word = word
                 max_frequency = frequency
         return most_common_word
+# Question link: https://leetcode.com/problems/most-common-word/
