@@ -3,4 +3,5 @@ class Solution:
         while right > left:
             right = right & (right - 1)
         return right & left
+        
 #Brian Kernighan's Algorithm
