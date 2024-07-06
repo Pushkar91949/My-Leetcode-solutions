@@ -6,4 +6,5 @@ class Solution:
             s += num
             if s == 0:
                 count += 1
-        return count # Question link: https://leetcode.com/problems/ant-on-the-boundary/
+        return count 
+        # Question link: https://leetcode.com/problems/ant-on-the-boundary/
