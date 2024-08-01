@@ -5,3 +5,4 @@ class Solution:
             if int(num[-4] + num[-3]) > 60:
                 count += 1
         return count
+# Question link: https://leetcode.com/problems/number-of-senior-citizens/
