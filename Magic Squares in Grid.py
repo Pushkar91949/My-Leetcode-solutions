@@ -30,4 +30,6 @@ class Solution:
             for j in range(cols-2):
                 ans += helper(i,j)
         return ans
+
+# Question link: https://leetcode.com/problems/magic-squares-in-grid/
             
