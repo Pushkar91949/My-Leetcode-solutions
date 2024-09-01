@@ -6,3 +6,4 @@ class Solution:
         for i in range(m):
             res.append(o[i*n:(i+1)*n])
         return res
+# Question link: https://leetcode.com/problems/convert-1d-array-into-2d-array/
