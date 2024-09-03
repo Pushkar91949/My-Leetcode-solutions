@@ -17,3 +17,4 @@ class Solution:
         for i in range(k):
             num = transform(num)
         return num
+# Question link: https://leetcode.com/problems/sum-of-digits-of-string-after-convert/
