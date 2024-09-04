@@ -17,3 +17,4 @@ class Solution:
                     x,y = x+dx, y+dy
             ans = max(ans, x**2 + y**2)
         return ans
+# Question link: https://leetcode.com/problems/walking-robot-simulation/
