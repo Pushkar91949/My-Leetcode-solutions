@@ -15,3 +15,4 @@ class Solution:
             else:
                 ptr = ptr.next
         return dummy.next
+# Question link: https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/
