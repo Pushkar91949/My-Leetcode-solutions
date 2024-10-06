@@ -14,3 +14,4 @@ class Solution:
             j += 1
         
         return i + j == len(s1)
+# Question link: https://leetcode.com/problems/sentence-similarity-iii/description/
