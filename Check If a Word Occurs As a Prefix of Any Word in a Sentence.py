@@ -14,3 +14,4 @@ class Solution:
             while i < n and sentence[i] != " ":
                 i += 1
         return -1
+# Question link: https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence
