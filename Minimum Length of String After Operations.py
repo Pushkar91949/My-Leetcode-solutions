@@ -10,3 +10,4 @@ class Solution:
             else:
                 dele += count - 1
         return len(s) - dele
+# Question link: https://leetcode.com/problems/minimum-length-of-string-after-operations/
